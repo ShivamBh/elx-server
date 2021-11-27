@@ -143,7 +143,7 @@ response = Servy.Handler.handle(request)
 IO.puts response
 
 request = """
-GET /bears?id=229 HTTP/1.1
+GET /bears?id=10 HTTP/1.1
 Host: example.com
 User-Agent: ExampleBrowser/1.0
 Accept: */*
@@ -155,7 +155,7 @@ IO.puts response
 
 
 request = """
-GET /ghura?id=229 HTTP/1.1
+GET /ghura?id=9 HTTP/1.1
 Host: example.com
 User-Agent: ExampleBrowser/1.0
 Accept: */*
